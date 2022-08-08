@@ -31,7 +31,7 @@ public class UserController {
                 userService.delete(userDeleteReq)
         );
     }
-    //주석 추가
+
     @GetMapping("/hello")
     public String hello(){
         return "hello world";
