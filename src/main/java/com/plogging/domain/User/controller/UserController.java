@@ -37,8 +37,8 @@ public class UserController {
         return "hello world";
     }
 
-    @GetMapping("/bye")
-    public String bye(){
-        return "bye world";
+    @GetMapping("/byebye")
+    public String byeBye(){
+        return "bye bye world";
     }
 }
